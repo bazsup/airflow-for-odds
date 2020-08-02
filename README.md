@@ -30,3 +30,7 @@ airflow scheduler
 airflow test <DAG_NAME> <TASK_ID> <datetime>
 ```
 
+## scale worker
+```bash
+docker-compose scale worker=2
+```
